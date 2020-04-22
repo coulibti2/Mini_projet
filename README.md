@@ -40,6 +40,6 @@ Nb : il pourrait vous être démandé d'installer les modules necessaires au pro
 
 - Afficher les messages d'un utilisateur "test" dans la salle"1": db.getCollection('messages').find({de:"test",salle:"1"}).pretty()
 
--Afficher le nombre de messages d'un utilisateur "test" dans la salle"1": 
+- Afficher le nombre de messages d'un utilisateur "test" dans la salle"1": 
 db.getCollection('messages').find({de:"test",salle:"1"}).count()
 
