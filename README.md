@@ -43,3 +43,7 @@ Nb : il pourrait vous être démandé d'installer les modules necessaires au pro
 - Afficher le nombre de messages d'un utilisateur "test" dans la salle"1": 
 db.getCollection('messages').find({de:"test",salle:"1"}).count()
 
+# Amélioration en cours : 
+- Mise en place de ReplicaSet 
+- Finaliser les requêtes à utiliser avec Postman. 
+- Les commandes MongoDb plus complexes : utilisateur le plus sollicité, celui qui communique le plus, etc...
