@@ -16,11 +16,10 @@ Ce projet tres intéressant à  permis de découvrir et à manipuler les techniq
 On apprend aussi à executer des commandes basiques pour interroger les differentes bases de données. 
 
 # Lancement du projet (Mac OS) 
-- Installation de Redis.
-- Installation de MongoDB
-- Installation de Robo3T
-- Lancement de Redis (redis-server) et s'assurer que le serveur est en attente de connexions. 
-- Ouvrir le projet et exécuter la commande : node server.js dans le terminal 
+- Lancement de Redis à l'aider de commande $ redis-server.
+- Lancement de MongoDB (mongo pour le server et mongod pour le client)
+- Robo3T peut être utiliser pour la visualisation de la base de données MongoDB.
+- Ouvrir le projet et exécuter la commande : node server.js dans le terminal.
 Nb : il pourrait vous être démandé d'installer les modules necessaires au projet: express; mongoose...
 - Ouvrir son navigateur et aller à : http://localhost:3000 
 - Créer un nom d'utilisateur et choisir une salle de conversation (Facebook, Insatgram ou Whatsapp)
@@ -45,5 +44,5 @@ db.getCollection('messages').find({de:"test",salle:"1"}).count()
 
 # Amélioration en cours : 
 - Mise en place de ReplicaSet 
-- Finaliser les requêtes à utiliser avec Postman. 
+- Finaliser les requêtes au niveau de la base de données. 
 - Les commandes MongoDb plus complexes : utilisateur le plus sollicité, celui qui communique le plus, etc...
